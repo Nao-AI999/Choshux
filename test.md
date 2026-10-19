@@ -11,6 +11,7 @@ git add .　全てのファイルをまとめて追加
 git add ファイル名　　　特定のファイルを追加する場合
 git commit -m "コメント" 何を変更したのかを"?/?"書く　-mはmessageの略
 git status 今どのファイルが変更されて、ステージされているか　緑色で表示される
+git remote -v リポジトリ名を確認する時
 git pull origin main リモートの最新状態を取得
 git stash   作業途中で別の枝へ一時退避
 git stash pop 退避させた作業を復元
