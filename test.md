@@ -16,3 +16,5 @@ git pull origin main リモートの最新状態を取得
 git stash   作業途中で別の枝へ一時退避
 git stash pop 退避させた作業を復元
 git branch -a　他の人が作ったブランチを確認
+git log 1 --format="%an <%ae>" コミット名義を確認
+
